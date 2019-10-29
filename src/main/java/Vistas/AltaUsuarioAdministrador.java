@@ -45,22 +45,43 @@ public class AltaUsuarioAdministrador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        nombreUsuarioAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel3.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel3.setText("Apellido");
 
+        repetirContraseñaAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel4.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel4.setText("DNI");
 
+        RegistrarAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         RegistrarAdministrador.setText("Registrar");
 
+        jLabel5.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel5.setText("Nombre de Usuario");
 
+        CancelarAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         CancelarAdministrador.setText("Cancelar");
 
+        jLabel6.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel6.setText("Contraseña");
 
+        contraseñaRepetirOperador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         contraseñaRepetirOperador.setText("Repetir Contraseña");
 
+        nombreAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        dniAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        contraseñaAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Nuevo Administrador");
 
+        apellidoAdministrador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel2.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel2.setText("Nombre");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -94,7 +115,7 @@ public class AltaUsuarioAdministrador extends javax.swing.JFrame {
                             .addComponent(jLabel5)
                             .addComponent(jLabel3)
                             .addComponent(contraseñaRepetirOperador))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CancelarAdministrador)
                             .addGroup(layout.createSequentialGroup()
@@ -165,6 +186,7 @@ public class AltaUsuarioAdministrador extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(AltaUsuarioAdministrador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

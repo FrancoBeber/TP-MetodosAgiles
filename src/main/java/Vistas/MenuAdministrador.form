@@ -46,7 +46,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="127" max="32767" attributes="0"/>
+              <EmptySpace pref="89" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
@@ -80,7 +80,7 @@
                   <Component id="ListarLicenciasVigentesAdmin" min="-2" max="-2" attributes="0"/>
                   <Component id="AltaNuevoOperador" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="73" max="32767" attributes="0"/>
+              <EmptySpace pref="55" max="32767" attributes="0"/>
               <Component id="SalirMenuAdmin" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
           </Group>
@@ -90,51 +90,81 @@
   <SubComponents>
     <Component class="java.awt.Label" name="label1">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Nombre de la Empresa"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="EmitirCopiaLicenciaAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Emitir Copia Licencia"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="ListarLicenciasExpiradasAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Listar Vigencias Expiradas"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="ListarLicenciasVigentesAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Listar Licencias Vigentes"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="SalirMenuAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Salir"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="AltaTitularAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Alta Titular"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="ModificarDatosTitularAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Modificar Datos Titular"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="EmitirLicenciaAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Emitir Licencia"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="RenovarLicenciaAdmin">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Renovar Licencia"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="AltaNuevoOperador">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Eras Light ITC" size="16" style="0"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Alta Nuevo Operador"/>
       </Properties>
     </Component>

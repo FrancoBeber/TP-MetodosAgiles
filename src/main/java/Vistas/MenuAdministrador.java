@@ -40,24 +40,34 @@ public class MenuAdministrador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        label1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         label1.setText("Nombre de la Empresa");
 
+        EmitirCopiaLicenciaAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         EmitirCopiaLicenciaAdmin.setLabel("Emitir Copia Licencia");
 
+        ListarLicenciasExpiradasAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ListarLicenciasExpiradasAdmin.setLabel("Listar Vigencias Expiradas");
 
+        ListarLicenciasVigentesAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ListarLicenciasVigentesAdmin.setLabel("Listar Licencias Vigentes");
 
+        SalirMenuAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         SalirMenuAdmin.setLabel("Salir");
 
+        AltaTitularAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         AltaTitularAdmin.setLabel("Alta Titular");
 
+        ModificarDatosTitularAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ModificarDatosTitularAdmin.setLabel("Modificar Datos Titular");
 
+        EmitirLicenciaAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         EmitirLicenciaAdmin.setLabel("Emitir Licencia");
 
+        RenovarLicenciaAdmin.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         RenovarLicenciaAdmin.setLabel("Renovar Licencia");
 
+        AltaNuevoOperador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         AltaNuevoOperador.setLabel("Alta Nuevo Operador");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -82,7 +92,7 @@ public class MenuAdministrador extends javax.swing.JFrame {
                             .addComponent(RenovarLicenciaAdmin, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(ModificarDatosTitularAdmin, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(AltaNuevoOperador, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(127, Short.MAX_VALUE))
+                .addContainerGap(89, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(SalirMenuAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -109,7 +119,7 @@ public class MenuAdministrador extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(ListarLicenciasVigentesAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(AltaNuevoOperador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                 .addComponent(SalirMenuAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
@@ -142,6 +152,7 @@ public class MenuAdministrador extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MenuAdministrador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

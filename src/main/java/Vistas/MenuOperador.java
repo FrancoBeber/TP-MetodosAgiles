@@ -39,22 +39,31 @@ public class MenuOperador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        label1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         label1.setText("Nombre de la Empresa");
 
+        AltaTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         AltaTitular.setLabel("Alta Titular");
 
+        ModificarDatosTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ModificarDatosTitular.setLabel("Modificar Datos Titular");
 
+        EmitirLicencia.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         EmitirLicencia.setLabel("Emitir Licencia");
 
+        RenovarLicencia.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         RenovarLicencia.setLabel("Renovar Licencia");
 
+        EmitirCopiaLicencia.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         EmitirCopiaLicencia.setLabel("Emitir Copia Licencia");
 
+        ListarLicenciasExpiradas.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ListarLicenciasExpiradas.setLabel("Listar Vigencias Expiradas");
 
+        ListarLicenciasVigentes.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ListarLicenciasVigentes.setLabel("Listar Licencias Vigentes");
 
+        SalirMenuOperador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         SalirMenuOperador.setLabel("Salir");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -62,7 +71,7 @@ public class MenuOperador extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(77, 99, Short.MAX_VALUE)
+                .addGap(77, 78, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -104,7 +113,7 @@ public class MenuOperador extends javax.swing.JFrame {
                     .addComponent(ListarLicenciasExpiradas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(50, 50, 50)
                 .addComponent(ListarLicenciasVigentes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addComponent(SalirMenuOperador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34))
         );
@@ -137,6 +146,7 @@ public class MenuOperador extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MenuOperador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

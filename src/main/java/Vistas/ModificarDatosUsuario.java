@@ -45,22 +45,43 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Modificar Datos Operador");
 
+        contraseñaRepetirOperador.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         contraseñaRepetirOperador.setText("Repetir Contraseña");
 
+        nombreOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        dniOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        contraseñaOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        apellidoOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        nombreUsuarioOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel2.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel2.setText("Nombre");
 
+        repetirContraseñaOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        jLabel3.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel3.setText("Apellido");
 
+        RegistrarOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         RegistrarOperadorModif.setText("Registrar");
 
+        jLabel4.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel4.setText("DNI");
 
+        CancelarOperadorModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         CancelarOperadorModif.setText("Cancelar");
 
+        jLabel5.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel5.setText("Nombre de Usuario");
 
+        jLabel6.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel6.setText("Contraseña");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -70,7 +91,7 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(297, 297, 297)
                 .addComponent(jLabel1)
-                .addContainerGap(297, Short.MAX_VALUE))
+                .addContainerGap(247, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(53, 53, 53)
@@ -89,7 +110,7 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
                                 .addComponent(dniOperadorModif)
                                 .addComponent(nombreOperadorModif, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
                                 .addComponent(contraseñaOperadorModif))))
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jLabel5)
                         .addComponent(jLabel3)
@@ -108,7 +129,7 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addContainerGap(415, Short.MAX_VALUE))
+                .addContainerGap(410, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(75, 75, 75)
@@ -129,7 +150,7 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
                         .addComponent(contraseñaRepetirOperador)
                         .addComponent(contraseñaOperadorModif, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(repetirContraseñaOperadorModif, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 123, Short.MAX_VALUE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 104, Short.MAX_VALUE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(RegistrarOperadorModif)
                         .addComponent(CancelarOperadorModif))
@@ -164,6 +185,7 @@ public class ModificarDatosUsuario extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ModificarDatosUsuario.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

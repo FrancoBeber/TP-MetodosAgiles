@@ -35,6 +35,7 @@ public class ListadoResultadosrenovarLicencia extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        CancelarListaRL.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         CancelarListaRL.setText("Cancelar");
 
         ListaResultadosRenovarLicencia.setModel(new javax.swing.table.DefaultTableModel(
@@ -66,8 +67,10 @@ public class ListadoResultadosrenovarLicencia extends javax.swing.JFrame {
         jScrollPane2.setViewportView(ListaResultadosRenovarLicencia);
         ListaResultadosRenovarLicencia.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Resultados Obtenidos ");
 
+        RenovarLicencia.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         RenovarLicencia.setText("Renovar Licencia");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -95,7 +98,7 @@ public class ListadoResultadosrenovarLicencia extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -132,6 +135,7 @@ public class ListadoResultadosrenovarLicencia extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ListadoResultadosrenovarLicencia.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

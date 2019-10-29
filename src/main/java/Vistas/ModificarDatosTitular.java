@@ -54,41 +54,71 @@ public class ModificarDatosTitular extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Modificar Datos de Titular");
 
+        jLabel2.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel2.setText("Tipo");
 
+        jLabel3.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel3.setText("Nombre");
 
+        jLabel4.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel4.setText("Fecha de Nacimiento");
 
+        jLabel5.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel5.setText("Clase Solicitada");
 
+        jLabel6.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel6.setText("Nro.DNI");
 
+        jLabel7.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel7.setText("Apellido");
 
+        jLabel8.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel8.setText("Direccion");
 
+        jLabel9.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel9.setText("Grupo Sanguineo");
 
+        jLabel10.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel10.setText("Es Donante?");
 
+        GuardarCambiosTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         GuardarCambiosTitular.setText("Guardar Cambios");
 
+        CancelarTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         CancelarTitular.setText("Cancelar");
 
+        donanteSi.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         donanteSi.setText("SI");
 
+        donanteNo.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         donanteNo.setText("NO");
 
+        tipoDniTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         tipoDniTitular.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+        ClaseSolicitadaTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         ClaseSolicitadaTitular.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+        grupoSanguineoTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         grupoSanguineoTitular.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+        DniTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        ApellidoTitularModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        NombreTitularModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        FechaNacimientoTitular.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        DireccionTitularModif.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
+
+        label11.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         label11.setText("Observaciones");
+
+        Observaciones.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -131,7 +161,7 @@ public class ModificarDatosTitular extends javax.swing.JFrame {
                                 .addComponent(CancelarTitular)
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addComponent(donanteSi)
@@ -156,7 +186,7 @@ public class ModificarDatosTitular extends javax.swing.JFrame {
                                                     .addGap(68, 68, 68)
                                                     .addComponent(grupoSanguineoTitular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addComponent(jLabel8)))))
-                                .addGap(309, 309, 309))))
+                                .addGap(95, 95, 95))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -199,14 +229,12 @@ public class ModificarDatosTitular extends javax.swing.JFrame {
                             .addComponent(ClaseSolicitadaTitular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel9)
                             .addComponent(grupoSanguineoTitular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel10)
                             .addComponent(donanteSi)
                             .addComponent(donanteNo)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(FechaNacimientoTitular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(FechaNacimientoTitular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(label11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -246,6 +274,7 @@ public class ModificarDatosTitular extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ModificarDatosTitular.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

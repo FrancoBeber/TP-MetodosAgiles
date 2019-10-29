@@ -35,10 +35,13 @@ public class ListadoResultadosEmitirCopiaLicencia extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Resultados Obtenidos ");
 
+        EmitirCopia.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         EmitirCopia.setText("Emitir Copia");
 
+        CancelarListaEC.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         CancelarListaEC.setText("Cancelar");
 
         ListaResultadosEmitirCopia.setModel(new javax.swing.table.DefaultTableModel(
@@ -93,7 +96,7 @@ public class ListadoResultadosEmitirCopiaLicencia extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -130,6 +133,7 @@ public class ListadoResultadosEmitirCopiaLicencia extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ListadoResultadosEmitirCopiaLicencia.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

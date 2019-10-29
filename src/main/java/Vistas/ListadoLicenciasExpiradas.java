@@ -35,6 +35,7 @@ public class ListadoLicenciasExpiradas extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jLabel1.setText("Listado de licencias expiradas");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -64,8 +65,10 @@ public class ListadoLicenciasExpiradas extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        VolverListaLE.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         VolverListaLE.setText("Volver");
 
+        jButton1.setFont(new java.awt.Font("Eras Light ITC", 0, 16)); // NOI18N
         jButton1.setText("jButton1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -98,7 +101,7 @@ public class ListadoLicenciasExpiradas extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(VolverListaLE)
                     .addComponent(jButton1))
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(51, Short.MAX_VALUE))
         );
 
         pack();
@@ -129,6 +132,7 @@ public class ListadoLicenciasExpiradas extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ListadoLicenciasExpiradas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
