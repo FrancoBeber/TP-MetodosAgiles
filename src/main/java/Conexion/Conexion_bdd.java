@@ -17,7 +17,7 @@ public class Conexion_bdd {
     
     
     public static void main(String args[]){
-    String url= "jdbc:postgresql://localhost:5432/Agiles";
+    String url= "jdbc:postgresql://localhost:5432/Agiles,";
     
     String usuario = "postgres";
     String contrasenia= "1234";
