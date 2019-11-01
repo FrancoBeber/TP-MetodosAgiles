@@ -5,7 +5,7 @@ package Persistencia;
  *
  * @author Martin
  */
-public class Costos {
+public class Costos implements java.io.Serializable {
 
      private Integer id;
      private String clase;

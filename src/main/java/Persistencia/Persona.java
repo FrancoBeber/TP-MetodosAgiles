@@ -7,7 +7,7 @@ import java.util.Date;
  *
  * @author Martin
  */
-public class Persona {
+public class Persona implements java.io.Serializable{
      private Integer id;
      private String apellido;
      private String nombre;

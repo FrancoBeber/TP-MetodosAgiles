@@ -9,7 +9,7 @@ package Persistencia;
  *
  * @author Martin
  */
-public class Clase {
+public class Clase implements java.io.Serializable {
      private String id;
      private String vehiculos;
      private int edadMinima;

@@ -5,7 +5,7 @@ import java.util.Date;
  *
  * @author Martin
  */
-public class Licencia {
+public class Licencia implements java.io.Serializable {
      private Integer id;
      private int personaId;
      private String claseId;
