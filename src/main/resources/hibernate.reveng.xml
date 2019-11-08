@@ -40,12 +40,11 @@ made subject to such option by the copyright holder.
 Contributor(s):
 -->
 <hibernate-reverse-engineering>
-  <schema-selection match-catalog="Agiles" match-schema="public"/>
-  <table-filter match-name="Costo"/>
-  <table-filter match-name="NuevoUsuario"/>
-  <table-filter match-name="Direccion"/>
-  <table-filter match-name="Titular"/>
-  <table-filter match-name="Licencia"/>
-  <table-filter match-name="InicioSesion"/>
+  <schema-selection match-catalog="postgres" match-schema="public"/>
+  <table-filter match-name="persona"/>
+  <table-filter match-name="vigencia"/>
+  <table-filter match-name="user"/>
+  <table-filter match-name="licencia"/>
   <table-filter match-name="clase"/>
+  <table-filter match-name="costo"/>
 </hibernate-reverse-engineering>

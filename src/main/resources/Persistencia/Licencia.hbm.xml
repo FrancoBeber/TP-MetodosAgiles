@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08/11/2019 17:59:29 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Persistencia.Licencia" table="licencia" schema="public" optimistic-lock="version">
+        <id name="idLicencia" type="serializable">
+            <column name="id_licencia" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="clase" class="Persistencia.Clase" fetch="select">
+            <column name="clase" not-null="true" />
+        </many-to-one>
+        <many-to-one name="costo" class="Persistencia.Costo" fetch="select">
+            <column name="id_costo" not-null="true" />
+        </many-to-one>
+        <many-to-one name="persona" class="Persistencia.Persona" fetch="select">
+            <column name="id_persona" not-null="true" />
+        </many-to-one>
+        <many-to-one name="user" class="Persistencia.User" fetch="select">
+            <column name="id_user" not-null="true" />
+        </many-to-one>
+        <many-to-one name="vigencia" class="Persistencia.Vigencia" fetch="select">
+            <column name="id_vigencia" not-null="true" />
+        </many-to-one>
+        <property name="motivo" type="serializable">
+            <column name="motivo" not-null="true" />
+        </property>
+        <property name="fechaDeEmision" type="serializable">
+            <column name="fecha_de_emision" not-null="true" />
+        </property>
+        <property name="fechaDeVencimiento" type="serializable">
+            <column name="fecha_de_vencimiento" not-null="true" />
+        </property>
+        <property name="observaciones" type="serializable">
+            <column name="observaciones" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

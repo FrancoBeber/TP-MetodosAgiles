@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08/11/2019 17:59:29 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Persistencia.Costo" table="costo" schema="public" optimistic-lock="version">
+        <id name="id" type="serializable">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="clase" type="serializable">
+            <column name="clase" not-null="true" />
+        </property>
+        <property name="anios" type="serializable">
+            <column name="anios" not-null="true" />
+        </property>
+        <property name="precio" type="serializable">
+            <column name="precio" not-null="true" />
+        </property>
+        <set name="licencias" table="licencia" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_costo" not-null="true" />
+            </key>
+            <one-to-many class="Persistencia.Licencia" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -32,7 +32,7 @@ public class util {
       public static SessionFactory getSessionFactory() {
         //Se verifica conexión
         try{
-            DriverManager.getConnection("jdbc:postgresql://localhost:5432/Agiles","postgre", "1234");
+            DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres", "39255414");
         } catch (SQLException e){
             JOptionPane.showMessageDialog(null, "ERROR. Falló la conexión a la base de datos", "Error",  JOptionPane.ERROR_MESSAGE);
             System.exit(0);

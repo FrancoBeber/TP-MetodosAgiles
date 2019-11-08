@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08/11/2019 17:59:29 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Persistencia.Persona" table="persona" schema="public" optimistic-lock="version">
+        <id name="documento" type="serializable">
+            <column name="documento" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="15" not-null="true" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="apellido" length="15" not-null="true" />
+        </property>
+        <property name="tipoDeSangre" type="serializable">
+            <column name="tipo_de_sangre" not-null="true" />
+        </property>
+        <property name="direccion" type="serializable">
+            <column name="direccion" not-null="true" />
+        </property>
+        <property name="fechaDeNacimiento" type="serializable">
+            <column name="fecha_de_nacimiento" not-null="true" />
+        </property>
+        <property name="donante" type="serializable">
+            <column name="donante" not-null="true" />
+        </property>
+        <property name="tipoDocumento" type="serializable">
+            <column name="tipo_documento" not-null="true" />
+        </property>
+        <set name="licencias" table="licencia" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_persona" not-null="true" />
+            </key>
+            <one-to-many class="Persistencia.Licencia" />
+        </set>
+    </class>
+</hibernate-mapping>

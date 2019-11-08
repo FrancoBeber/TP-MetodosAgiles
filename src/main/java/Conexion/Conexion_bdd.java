@@ -17,10 +17,10 @@ public class Conexion_bdd {
     
     
     public static void main(String args[]){
-    String url= "jdbc:postgresql://localhost:5432/Agiles,";
+    String url= "jdbc:postgresql://localhost:5432/postgres";
     
     String usuario = "postgres";
-    String contrasenia= "1234";
+    String contrasenia= "39255414";
     try{
         Class.forName("org.postgresql.Driver");
         Connection conexion=DriverManager.getConnection(url, usuario, contrasenia);
